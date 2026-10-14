@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# secrets - never commit these, in any week
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+credentials.json
+
+# dependencies and build output
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# editor
+.vscode/
+.idea/
